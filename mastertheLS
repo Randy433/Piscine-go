@@ -1,0 +1,1 @@
+ls -aF --time=atime --sort=time | grep -vE "^\.$|^\.\.$|^\..*" | tr "\n" "," | sed "s/,$//"
